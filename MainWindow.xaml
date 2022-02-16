@@ -5,17 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppChromiumBrowser"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TabControl Margin="0,37,0,0">
-            <TabItem x:Name="tabItem1" Header="Google">
-                <Grid Background="#FFE5E5E5"/>
+        Title="God browser" Height="450" Width="800">
+
+    <Grid Background="#FFFFDD00">
+        <TabControl Margin="0,46,0,0" Background="#FFFFFB4F">
+            <TabItem x:Name="tabItem3" Header="Google" Margin="17,-2,-17,2" Width="55" BorderBrush="#FF841717" Height="25" Background="White" Foreground="Black">
+                <Grid Margin="0,-74,-1,-6" Background="White"/>
             </TabItem>
-            <TabItem x:Name="tabItem2" Header="youtube">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem x:Name="tabItem2" Header="youtube" Margin="0,-2,-17,2" Width="55" Height="25" HorizontalAlignment="Right" Foreground="Black" Background="White">
+                <Grid Height="355" Background="White"/>
+            </TabItem>
+            <TabItem x:Name="tabItem1" Header="NewTab" Background="White" Margin="71,-1,-71,1" Height="25" Width="55">
+                <Grid Margin="0,20,0,0" Background="#FFFFFB4F"/>
+            </TabItem>
+            <TabItem x:Name="tabItem4" Header="News" Background="White" Margin="-39,-1,39,1" Height="25" Width="55">
+                <Grid Margin="0,20,0,0" Background="#FFFFFB4F">
+                    <TextBlock HorizontalAlignment="Left" Margin="50,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="115"><Run Language="lv-lv" Text="Is "/><Run Text="Russia"/><Run Language="lv-lv" Text=" "/><Run Text="about to start a war against Ukraine"/><Run Language="lv-lv" Text="?"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Mairis Briedis buying fake folowers on instagram?" VerticalAlignment="Top" Height="65" Width="114" Margin="314,156,0,0"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="589,156,0,0" TextWrapping="Wrap" Text="What is going to stop covid-19 once and for all?" VerticalAlignment="Top" Height="65" Width="115"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="230,299,0,0" TextWrapping="Wrap" Text="For more news pay our monthly subscription of just 69.99" VerticalAlignment="Top" Foreground="Black"/>
+                </Grid>
             </TabItem>
         </TabControl>
-        <TextBox x:Name="AdressBar" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="359" RenderTransformOrigin="0.5,0.5" Height="18">
+        <TextBox x:Name="AdressBar" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="378" RenderTransformOrigin="0.5,0.5" Height="31" Visibility="Visible" FontFamily="Calibri" Background="White" BorderBrush="Black" Foreground="Black" >
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -25,7 +37,14 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Button x:Name="GoButton" Content="Go" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.566,0.598" Width="65" Click="GoButton_Click"/>
+        <Button x:Name="GoButton" Content="Search" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.566,0.598" Width="65" Click="GoButton_Click" Height="36" Background="White"/>
+        <Button x:Name="BackButton" Content="↩" HorizontalAlignment="Left" Margin="528,14,0,0" VerticalAlignment="Top" Width="21" Height="22" Click="BackButton_Click"/>
+        <Button x:Name="ForwardButton" Content="↪" HorizontalAlignment="Left" Margin="554,14,0,0" VerticalAlignment="Top" Click="ForwardButton_Click" Width="21" Height="22"/>
+        <Button x:Name="ReloadButton" Content="⟳" HorizontalAlignment="Left" Margin="580,14,0,0" VerticalAlignment="Top" Click="ReloadButton_Click" Width="21" Height="22"/>
+        <Button x:Name="HelpButton" Content="Help" HorizontalAlignment="Left" Margin="735,10,0,0" VerticalAlignment="Top" Height="22" Width="43" Click="HelpButton_Click"/>
 
     </Grid>
+
+
+
 </Window>
