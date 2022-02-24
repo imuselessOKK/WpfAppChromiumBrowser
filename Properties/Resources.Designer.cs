@@ -59,5 +59,15 @@ namespace WpfAppChromiumBrowser.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] war {
+            get {
+                object obj = ResourceManager.GetObject("war", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

@@ -19,11 +19,10 @@
                 <Grid Margin="0,20,0,0" Background="#FFFFFB4F"/>
             </TabItem>
             <TabItem x:Name="tabItem4" Header="News" Background="White" Margin="-39,-1,39,1" Height="25" Width="55">
-                <Grid Margin="0,20,0,0" Background="#FFFFFB4F">
-                    <TextBlock HorizontalAlignment="Left" Margin="50,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="115"><Run Language="lv-lv" Text="Is "/><Run Text="Russia"/><Run Language="lv-lv" Text=" "/><Run Text="about to start a war against Ukraine"/><Run Language="lv-lv" Text="?"/></TextBlock>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Is Mairis Briedis buying fake folowers on instagram?" VerticalAlignment="Top" Height="65" Width="114" Margin="314,156,0,0"/>
+                <Grid Margin="0,20,0,0" Background="#FFFFFB4F" RenderTransformOrigin="0.47,0.567">
+                    <TextBlock HorizontalAlignment="Left" Margin="50,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="115"><Run Language="lv-lv" Text="Why is Russia starting a war against Ukraine?"/><LineBreak/><Run Language="lv-lv"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="114" Margin="314,156,0,0"><Run Language="lv-lv" Text="What is an NFT, and how to invest in it."/></TextBlock>
                     <TextBlock HorizontalAlignment="Left" Margin="589,156,0,0" TextWrapping="Wrap" Text="What is going to stop covid-19 once and for all?" VerticalAlignment="Top" Height="65" Width="115"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="230,299,0,0" TextWrapping="Wrap" Text="For more news pay our monthly subscription of just 69.99" VerticalAlignment="Top" Foreground="Black"/>
                 </Grid>
             </TabItem>
         </TabControl>

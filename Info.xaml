@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Info" Height="400" Width="400">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Height="364" Width="380"><Run Text="                              Info on how to use this browser"/><LineBreak/><Run/><LineBreak/><Run Text="  Whenever you search something in the adress bar use &quot;www&quot; in front"/><LineBreak/><Run Text="  and &quot;com&quot; or any other domain in the back."/><LineBreak/><Run Text="  "/><LineBreak/><Run Text="  When you search for an adress in the adress bar, the site will "/><Run Text="open"/><Run Text=" in"/><LineBreak/><Run Text="  the"/><Run Text=" "/><Run Text="New Tab."/><LineBreak/><Run/><LineBreak/><Run Text="  Do not maximize "/><Run Text="when you are looking at the news because it will break - pls help me fix it"/><Run Text=" i'm not smart  😀 "/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Language="lv-lv" Text="  p.s. pay our more news subscription or i will be sad 😞"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Height="364" Width="380"><Run Text="                              Info on how to use this browser"/><LineBreak/><Run/><LineBreak/><Run Text="  Whenever you search something in the adress bar use &quot;www&quot; in front"/><LineBreak/><Run Text="  and &quot;com&quot; or any other domain in the back."/><LineBreak/><Run Text="  "/><LineBreak/><Run Text="  When you search for an adress in the adress bar, the site will "/><Run Text="open"/><Run Text=" in"/><LineBreak/><Run Text="  the"/><Run Text=" "/><Run Text="New Tab."/><LineBreak/><Run/><LineBreak/><LineBreak/></TextBlock>
 
     </Grid>
 </Window>
